@@ -6,11 +6,24 @@ To Develop a convolutional deep neural network for image classification and to v
 
 ## Problem Statement and Dataset
 
-Include the Problem Statement and Dataset.
+Image classification is a fundamental problem in computer vision, where the goal is to assign an input image to one of the predefined categories. Traditional machine learning models rely heavily on handcrafted features, whereas Convolutional Neural Networks (CNNs) automatically learn spatial features directly from pixel data.
+
+In this experiment, the task is to build a Convolutional Deep Neural Network (CNN) to classify images from the FashionMNIST dataset into their respective categories. The trained model will then be tested on new/unseen images to verify its effectiveness.
+
+## Dataset
+The FashionMNIST dataset consists of 70,000 grayscale images of size 28 × 28 pixels.
+
+The dataset has 10 classes, representing different clothing categories such as T-shirt, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag, and ankle boot.
+
+Training set: 60,000 images.
+
+Test set: 10,000 images.
+
+Images are preprocessed (normalized and converted to tensors) before being passed into the CNN.
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+<img width="962" height="468" alt="image" src="https://github.com/user-attachments/assets/9dd756d3-a1f3-48c3-b2bc-30ac4717949a" />
 
 ## DESIGN STEPS
 
@@ -123,4 +136,5 @@ Include your sample input and output
 
 
 ## RESULT
-Include your result here.
+
+Thus, We have developed a convolutional deep neural network for image classification to verify the response for new images.
